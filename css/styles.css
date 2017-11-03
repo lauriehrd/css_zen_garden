@@ -1,0 +1,301 @@
+body{
+
+	background-color: #daede2;
+}
+
+.bleu{
+
+	background-color: #63c4d6;
+	margin: 60px;
+	height: 3150px;
+	position: relative;
+
+}
+
+.bleu h1{
+
+	font-size: 110px;
+	padding-left: 60px;
+	font-weight: bolder;
+	padding-top: 30px;
+	line-height: 8rem;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+h1 span{
+
+	display: flex;
+}
+
+.bleu .red{
+
+	border: 1px solid #f7003a;
+	background-color: #f7003a;
+	width: 320px;
+	top: 85px;
+	height: 55px;
+	font-size: 30px;
+	letter-spacing: 3px;
+	margin-left: 60px;
+	text-align: center;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	padding-top: 15px;
+	position: relative;
+}
+
+.bleu .red, .bleu h1, .redblock h3, .texte, .texte2, .titreside1, .side1, .redblock p{
+
+	color:white;
+}
+
+.bleu .red, .texte, .texte2, .text-aside{
+
+	text-transform: uppercase;
+}
+
+.foncé{
+
+	width: 30%;
+	opacity: 0.96;
+	background-color: #384655;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 1;
+	position: fixed;
+}
+
+.jaune{
+
+	width: 33%;
+	height: 1100px;
+	background-color: #e7eb79;
+	opacity: 0.9;
+	top: 95px;
+	right: 0;
+	z-index: 2;
+	position:absolute;
+}
+
+.jaune p{
+
+	width: 200px;
+	color: black;
+	font-size: 16px;
+	padding-left: 60px;
+	color: #909256;
+	font-weight: 300;
+	text-align: left;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.jaune .nom_auteur{
+
+	line-height: 40px;
+}
+
+a{
+	border-bottom: 1px solid #909256;
+	color: black;
+	text-decoration: none;
+}
+
+a:hover{
+
+	border-bottom-color: red;
+}
+
+.white{
+	
+	width: 56%;
+	height: 400px;
+	opacity: 0.89;
+	left:0;
+	top: 900px;
+	margin-left: -65px;
+	padding-left: 120px;
+	position:absolute;
+}
+
+.white p{
+
+	font-weight: 400;
+	font-size: 18px;
+	width: 95%;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.whiteblock{
+
+	width: 60%;
+	height: 129vh;
+	float: right;
+	opacity: 0.93;
+	top: 5rem;
+	z-index: 1;
+	margin-right: 80px;
+}
+
+.whiteblock p{
+
+	font-size: 18px;
+	margin-left: 50px;
+	margin-right: 50px;
+	line-height: 23px;
+	text-align: left;
+}
+
+.whiteblock h3, .redblock h3, .jaune h3, .texte2, .whiteblock2 h3{
+
+	padding-left: 60px;
+}
+
+.whiteblock h3, .redblock h3, .white h3, .jaune h3{
+
+	font-size: 36px;
+	font-weight: normal;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.white, .whiteblock, .whiteblock2{
+
+	background-color:white;
+}
+
+.whiteblock2 h3{
+
+	padding-top: 36px;
+	font-size: 36px;
+	font-weight: normal;
+}
+
+.whiteblock2, .redblock, .side1, .whiteblock, .bleu h1{
+
+	position: relative;
+}
+
+.whiteblock2{
+
+	width: 30%;
+	height: 70vh;
+	opacity: 0.97;
+	z-index: 1;
+	top: 60rem;
+	margin-left: 40px;
+}
+
+.whiteblock2 p{
+
+	font-size: 18px;
+	margin-left: 50px;
+	margin-right: 50px;
+	line-height: 30px;
+	text-align: left;
+}
+
+.texte, .texte2{
+
+	font-size: 19px;
+	width: 53%;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	line-height: 25px;
+	letter-spacing: 2px;
+	padding-bottom: 30px;
+}
+
+.texte{
+
+	border-bottom:1px solid red;
+	margin-left: 60px;
+}
+
+.texte2{
+
+	padding-top: 20px;
+}
+
+.texte2 span{
+
+	border-bottom:1px solid green;
+	padding-bottom: 3px;	
+}
+
+.texte2 span:hover{
+
+	border-bottom-color: red;
+}
+
+.titreside1{
+
+	font-weight: normal;
+	font-size: 33px;
+	top: 35rem;
+	margin-left: 100px;
+	position: relative;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.side1 {
+
+	font-size: 19px;
+	top:36rem;
+	width: 40%;
+	margin-left: 100px;
+	line-height: 25px;
+	text-align: left;
+}
+
+.redblock{
+
+	width: 42%;
+	height: 700px;
+	float: right;
+	background-color: #e81349;
+	opacity: 0.9;
+	top: 5rem;
+	z-index: 1;
+	margin-right: 80px;
+}
+
+.redblock p{
+
+	font-size: 18px;
+	margin:40px 50px;
+	line-height: 25px;
+	text-align: left;
+}
+
+.text-aside{
+
+	padding-top: 50px;
+	border-top: 1px solid red;
+	letter-spacing: 2px;
+	line-height: 45px;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.nav-bottom{
+
+	background-color: #ecf786;
+	width: 37%;
+	height:60px;
+	bottom: 13rem;
+	opacity: 0.9;
+	margin-left: 120px;
+	position: relative;
+}
+
+.nav-bottom ul li{
+
+	font-size: 18px;
+	display: inline-block;
+	list-style: none;
+	padding-right: 7px;
+	padding-top: 20px;
+	border-bottom:1px solid;
+}
+
+.nav-bottom ul li:hover{
+
+	border-bottom-color: red;
+}
