@@ -24,7 +24,14 @@ body{
 
 h1 span{
 
-	display: flex;
+	display: block;
+}
+
+.css{
+
+	border-bottom: 13px dotted white;
+	display: inline-block;
+
 }
 
 .bleu .red{
@@ -108,7 +115,7 @@ a:hover{
 .white{
 	
 	width: 56%;
-	height: 400px;
+	height: 410px;
 	opacity: 0.89;
 	left:0;
 	top: 900px;
@@ -127,8 +134,8 @@ a:hover{
 
 .whiteblock{
 
-	width: 60%;
-	height: 129vh;
+	width: 57%;
+	height: 132vh;
 	float: right;
 	opacity: 0.93;
 	top: 5rem;
@@ -176,12 +183,12 @@ a:hover{
 
 .whiteblock2{
 
-	width: 30%;
-	height: 70vh;
-	opacity: 0.97;
+	width: 32%;
+	height: 80vh;
+	opacity: 0.93;
 	z-index: 1;
 	top: 60rem;
-	margin-left: 40px;
+	margin-left: 47px;
 }
 
 .whiteblock2 p{
@@ -279,7 +286,7 @@ a:hover{
 	background-color: #ecf786;
 	width: 37%;
 	height:60px;
-	bottom: 13rem;
+	bottom: 11rem;
 	opacity: 0.9;
 	margin-left: 120px;
 	position: relative;
